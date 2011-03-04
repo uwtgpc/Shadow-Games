@@ -5,4 +5,8 @@ package com.uwtgpc.shadowgames.util;
  * Templates.
  */
 public enum Direction{
+  EAST,
+  WEST,
+  NORTH,
+  SOUTH
 }
