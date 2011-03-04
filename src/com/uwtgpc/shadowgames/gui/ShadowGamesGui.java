@@ -7,7 +7,7 @@ public class ShadowGamesGui extends JFrame {
 	public ShadowGamesGui()
 	{
 		add(new JLabel("Hello, World!"));
-		pack();
+		setSize(400,400);
 	}
 	public void start()
 	{
