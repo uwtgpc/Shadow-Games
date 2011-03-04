@@ -1,13 +1,18 @@
 package com.uwtgpc.shadowgames.gui;
 
-public class ShadowGamesMain {
+import com.golden.gamedev.GameLoader;
+
+import java.awt.*;
+
+public class ShadowGamesMain{
 
 	/**
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		(new ShadowGamesGui()).start();
+		GameLoader gl = new GameLoader();
+        gl.setup(new ShadowGamesGui(), new Dimension(640,480), false);
+        gl.start();
 	}
 
 }
