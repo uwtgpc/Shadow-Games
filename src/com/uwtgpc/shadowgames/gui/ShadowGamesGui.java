@@ -90,7 +90,7 @@ public class ShadowGamesGui extends Game{
     graphics2D.fillRect(0, 0, getWidth(), getHeight());
     graphics2D.setColor(Color.BLACK);
     graphics2D.setFont(my_font);
-    graphics2D.drawString("Hello, World!", 200, 50);
+    graphics2D.drawString("This is Shadow Games...", 200, 50);
     boy.render(graphics2D);
     //explosion.render(graphics2D);
     for(Sprite bullet : bullets){
